@@ -32,7 +32,8 @@ def yargila():
         "Sonuç: Buzdolabı sizi yargıladı. Siz buzdolabını değil.",
         "Hüküm: Gece yarısı açlığı geçerli mazeret değildir. Tekrar etmeyin.",
         "Karar: Suçlu. Ama buzdolabı da suç ortağı. İkiniz de cezalandırıldınız.",
-        "Yargı: Bu kadar geç saatte peynir mi yersin? Ciddi misin?"
+        "Yargı: Bu kadar geç saatte peynir mi yersin? Ciddi misin?",
+        "Ek karar: Form doldurulmadığı için yargılama ertelendi. (Gizli bürokrasi.)"
     ]
     
     print("\n" + random.choice(kararlar))
